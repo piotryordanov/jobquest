@@ -1,6 +1,6 @@
 {
   "name": "jobquest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Complete job search automation toolkit: find careers pages, scrape listings, match jobs to your profile, build tailored resumes, track applications, and prep for interviews",
   "author": {
     "name": "Piotr Yordanov",

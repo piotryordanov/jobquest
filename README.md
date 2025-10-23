@@ -53,41 +53,48 @@ git clone https://github.com/piotryordanov/jobquest.git
 
 ## Quick Start
 
-### 1. Set Up Your Configuration
+### 1. Initialize Configuration (Automatic or Manual)
 
-The plugin requires a few configuration files in the root `configs/` directory:
+**Option A: Automatic Setup (Recommended)**
 
-**configs/preferences.yaml** - Your job search preferences:
-```yaml
-locations:
-  - "Remote"
-  - "Dubai"
-  - "Your City"
+Just start using JobQuest! The first time you search for jobs, Claude will automatically ask for your preferences and create the config files:
 
-employment_types:
-  - "Full-time"
+```bash
+"Find jobs at Aktek"
+
+# Claude will automatically:
+# 1. Ask where you're looking for jobs (Remote? Specific cities?)
+# 2. Ask what employment types you want (Full-time? Contract?)
+# 3. Create all config files with your preferences
+# 4. Then proceed to find jobs
 ```
 
-**configs/companies.yaml** - Known company careers URLs (auto-populated):
-```yaml
-companies:
-  - name: "Company Name"
-    careers_url: "https://careers.company.com"
-    platform: "lever"
-    added_date: "2025-10-22"
-    last_searched: "2025-10-22"
+**Option B: Manual Setup**
+
+Run the setup script:
+
+```bash
+cd your-project
+./setup.sh
 ```
 
-**configs/job_boards.yaml** - Job boards to track (optional):
-```yaml
-job_boards:
-  - name: "CryptocurrencyJobs"
-    url: "https://cryptocurrencyjobs.co"
-    category: "crypto"
-    effectiveness: "high"
+Or copy the example configs:
+
+```bash
+cp configs/preferences.example.yaml configs/preferences.yaml
+cp configs/companies.example.yaml configs/companies.yaml
+cp configs/job_boards.example.yaml configs/job_boards.yaml
+
+# Edit preferences.yaml with your locations and preferences
 ```
 
-### 2. Create Your Bio
+**What gets created:**
+
+- `configs/preferences.yaml` - Your job search preferences (locations, employment types)
+- `configs/companies.yaml` - Tracked companies (auto-populated as you search)
+- `configs/job_boards.yaml` - Job boards you use (pre-filled with popular boards)
+
+### 2. Create Your Bio (Optional but Recommended)
 
 Create achievement pages in the `bio/` folder to power intelligent job matching:
 
@@ -99,9 +106,9 @@ bio/
 └── [company]/              # Company-specific work
 ```
 
-See the example structure in this repo for reference.
+**Note:** The bio folder is optional but enables intelligent job matching. Without it, JobQuest will still find and scrape jobs, but won't be able to score them based on your background.
 
-### 3. Start Your Job Search
+### 3. Start Your Job Search (That's It!)
 
 ```bash
 # Find jobs at a company
