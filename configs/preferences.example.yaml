@@ -1,0 +1,33 @@
+# Job Search Preferences (Example)
+#
+# Copy this file to preferences.yaml and customize for your job search
+
+# Preferred job locations (case-insensitive matching)
+locations:
+  - "Remote"
+  - "Your City"
+  # Add more locations:
+  # - "London"
+  # - "Singapore"
+  # - "New York"
+
+# Employment types
+employment_types:
+  - "Full-time"
+  # - "Contract"
+  # - "Part-time"
+
+# Minimum salary (optional)
+# min_salary: 150000
+# currency: "USD"
+
+# Keywords to prioritize (optional)
+# prioritize_keywords:
+#   - "AI"
+#   - "Machine Learning"
+#   - "Senior"
+
+# Keywords to avoid (optional)
+# avoid_keywords:
+#   - "Junior"
+#   - "Intern"

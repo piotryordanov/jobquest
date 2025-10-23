@@ -1,0 +1,25 @@
+# Job Boards Reference (Example)
+#
+# Track which job boards you use and their effectiveness
+
+job_boards:
+  - name: "Example Job Board"
+    url: "https://example-jobs.com"
+    added_date: "2025-10-22"
+    last_checked: "2025-10-22"
+    category: "tech"  # crypto, fintech, tech, general, remote
+    effectiveness: "high"  # high, medium, low, null
+    notes: "Good for senior roles"
+
+  # Popular job boards to track:
+  # - name: "RemoteOK"
+  #   url: "https://remoteok.com/"
+  #   category: "remote"
+  #   effectiveness: null
+  #   last_checked: null
+  #
+  # - name: "We Work Remotely"
+  #   url: "https://weworkremotely.com/"
+  #   category: "remote"
+  #   effectiveness: null
+  #   last_checked: null

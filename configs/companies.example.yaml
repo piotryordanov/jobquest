@@ -1,0 +1,19 @@
+# Known Company Careers Pages (Example)
+#
+# This file is auto-populated by jobquest-find-careers-url
+# You can also manually add companies before searching
+
+companies:
+  - name: "Example Company"
+    careers_url: "https://jobs.lever.co/example-company"
+    added_date: "2025-10-22"
+    last_searched: "2025-10-22"
+    platform: "lever"  # lever, greenhouse, ashby, generic
+    notes: "Optional notes about the company"
+
+  # Add more companies manually:
+  # - name: "Another Company"
+  #   careers_url: "https://careers.example.com"
+  #   platform: "generic"
+  #   added_date: "2025-10-22"
+  #   last_searched: null

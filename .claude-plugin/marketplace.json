@@ -1,0 +1,24 @@
+{
+  "name": "jobquest-marketplace",
+  "owner": {
+    "name": "Piotr Yordanov",
+    "email": "piotr.yordanov@pm.me"
+  },
+  "metadata": {
+    "description": "Job search automation plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jobquest",
+      "source": ".",
+      "description": "Complete job search automation toolkit: find careers pages, scrape listings, match jobs to your profile, build tailored resumes, track applications, and prep for interviews",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["job-search", "resume", "career", "applications", "automation"],
+      "author": {
+        "name": "Piotr Yordanov"
+      }
+    }
+  ]
+}

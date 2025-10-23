@@ -1,0 +1,48 @@
+# Timeline of interactions for {Company} - {Job Role}
+#
+# This file tracks all stakeholders and interactions throughout the application process.
+# Keep this file updated chronologically as you interact with the company.
+
+# Stakeholders involved in this application
+stakeholders:
+  - name: ""
+    role: ""  # e.g., Recruiter, Hiring Manager, CTO, Team Lead, HR
+    email: ""
+    linkedin: ""  # optional
+    notes: ""  # optional: any relevant context about this person
+
+# Chronological timeline of all interactions
+interactions:
+  - date: ""  # ISO format: YYYY-MM-DDTHH:MM:SS or YYYY-MM-DD
+    stakeholder: ""  # Name of the person from stakeholders list
+    type: ""  # email_sent, email_received, call, interview, message, application_submitted
+    subject: ""  # For emails: subject line, For interviews: title/purpose
+    duration: ""  # For calls/interviews: e.g., "45 min", "1 hour"
+    summary: |
+      Brief summary of the interaction. What was discussed, key points,
+      their reactions, next steps, your impressions, etc.
+    resume_sent: ""  # If you sent a resume, specify the filename
+    attachments: []  # List of paths to related files in communications/
+      # - "communications/2025-10-21_initial-email.eml"
+      # - "communications/2025-10-23_interview-transcript.md"
+    notes: ""  # Optional: follow-up actions, important details to remember
+
+# Example entry (delete this when you add real data):
+# - date: "2025-10-21T10:30:00"
+#   stakeholder: "John Doe"
+#   type: "email_sent"
+#   subject: "Application for Product Manager - AI"
+#   summary: |
+#     Sent initial application with tailored resume and cover letter.
+#     Emphasized AI/ML experience and technical leadership.
+#   resume_sent: "Resume.pdf"
+#   attachments:
+#     - "communications/2025-10-21_initial-application.eml"
+#   notes: "Waiting for response. Follow up in 1 week if no reply."
+
+# Application status tracking (optional)
+status:
+  current_stage: ""  # applied, screening, interview_1, interview_2, offer, rejected
+  last_updated: ""
+  next_action: ""
+  deadline: ""  # If there's a deadline for response or decision

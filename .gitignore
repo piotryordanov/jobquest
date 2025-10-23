@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+
+# Playwright
+.playwright/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Job Applications - Private Data
+job_applications/*/
+!job_applications/CLAUDE.md
+
+# Personal configs (don't share personal preferences)
+configs/preferences.yaml
+configs/companies.yaml
+configs/job_boards.yaml
+
+# Keep example configs
+!configs/*.example.yaml
+
+# Bio/Portfolio - Keep this private unless you want to share
+bio/
+!bio/.gitkeep
+
+# Generated PDFs
+*.pdf
+!tex/partials/*.pdf
+
+# Personal resume files
+tex/resume_*.tex
+!tex/resume_all.tex

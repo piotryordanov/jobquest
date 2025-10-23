@@ -1,0 +1,34 @@
+{
+  "name": "jobquest",
+  "version": "1.0.0",
+  "description": "Complete job search automation toolkit: find careers pages, scrape listings, match jobs to your profile, build tailored resumes, track applications, and prep for interviews",
+  "author": {
+    "name": "Piotr Yordanov",
+    "email": "piotr.yordanov@pm.me"
+  },
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "job-search",
+    "resume",
+    "career",
+    "applications",
+    "automation",
+    "web-scraping",
+    "playwright"
+  ],
+  "tags": ["productivity", "career", "automation"],
+  "homepage": "https://github.com/piotryordanov/jobquest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piotryordanov/jobquest.git"
+  },
+  "skills": {
+    "source": ".claude/skills"
+  },
+  "dependencies": {
+    "python": ">=3.12",
+    "uv": "*"
+  },
+  "readme": "README.md"
+}
